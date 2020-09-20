@@ -25,7 +25,9 @@ SECRET_KEY = 'vid&o2(o_0z9!$jzz6f%)z2*8(jxoex%-7^$j#2m&v#l_f9j#i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 
 # Application definition
